@@ -1,4 +1,4 @@
-# Java-Codes
+# Strings Java
 Codes for unique problems on Strings in java
 # JavaCode1
 WAP to remove tags from a string containing html code so that the text format will be shown.
