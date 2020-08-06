@@ -9,3 +9,6 @@ INPUT: Hello World and OUTPUT: Hel o W r d //upper-case and lower-case character
 WAP in java which reverses the entire string without reversing the character sequence.(For example, INPUT: Hello World and OUTPUT: World Hello)
 # JavaCode4
 WAP in java for password validation such that password must be at least 5 characters long and must contain character @,a lower case alphabet, an upper case alphabet and a number.
+# JavaCode5
+WAP in java to find occurence of a word in a sentence that includes punctuation marks(For example, INPUT: Sam:Hi, my name is Sam. Jenny:Hi. Find occurence of word:Hi 
+OUTPUT: Hi occurs 2 times at position: 1 and 7).
