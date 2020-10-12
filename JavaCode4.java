@@ -4,13 +4,25 @@
  * and open the template in the editor.
  */
 
+import java.util.regex.*;
+
 /**
  *
  * @author Shivam Rana
  */
 public class JavaCode4 {
-    public static void main(String[] args) {
+    public static boolean matchPassword(String input) {
+        String pStr = "(?=.*@)(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*";
+        Pattern p = Pattern.compile(pStr);
+        Matcher m = p.matcher(input);
+        return input.length() >= 5 && m.find();
+    }
+    public static void main(String[] args) {        
         String str="Dapinder@34";
+
+        // demonstrate regex alternative
+        System.out.println("Is valid: " + matchPassword(str));
+
         char[] arr=str.toCharArray();
         int len=str.length();
         int uc=0,lc=0,n=0,a=0;
